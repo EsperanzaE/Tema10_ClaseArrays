@@ -11,13 +11,13 @@ public class Metodos {
      */
 
     public static void String(int [] num1) {
-        System.out.println("lo recorro y muestro con un for each");
+        System.out.println("recorro el array con un for each y lo muestro");
         for (int elemento: num1) {
             System.out.print(elemento+ " ");
         }
         System.out.println("");
 
-        System.out.println("lo muestro con Arrays.toString(array)");
+        System.out.println("muestro el array con Arrays.toString(array)");
         System.out.println(Arrays.toString(num1));
     }
 }
